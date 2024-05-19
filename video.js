@@ -1,4 +1,4 @@
-
+//
 $("video").css("visibility", "hidden")
 
 $("video").on("timeupdate", function() {
