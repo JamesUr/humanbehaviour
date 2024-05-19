@@ -74,7 +74,7 @@ $(document).keypress(function (e) {
 	}
 
 });
-/*
+
 setInterval(function() {
 	if((window.fullScreen) ||
 	(window.innerWidth == screen.width && window.innerHeight == screen.height)) {
@@ -83,7 +83,7 @@ setInterval(function() {
 		$("#overlay").css("visibility", "visible")
 	}
 	}, 100)
-*/
+
 $(document).on("wheel", function(e) {
 	e.preventDefault()
 })
