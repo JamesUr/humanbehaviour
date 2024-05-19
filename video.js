@@ -23,7 +23,6 @@ $("video").on("timeupdate", function() {
 
 $(document).keypress(function (e) {
     if(e.keyCode == 97){
-		console.log("test")
 		var mediaVideo = $("video").get(0);
 		mediaVideo.pause()
 		mediaVideo.currentTime = mediaVideo.currentTime - 10
