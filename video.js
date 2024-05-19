@@ -83,7 +83,7 @@ setInterval(function() {
 		$("#overlay").css("visibility", "visible")
 	}
 	}, 100)
-//
+
 $(document).on("wheel", function(e) {
 	e.preventDefault()
 })
