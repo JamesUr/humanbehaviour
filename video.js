@@ -22,14 +22,14 @@ $("video").on("timeupdate", function() {
 
 
 $(document).keypress(function (e) {
-	if(e.keyCode == 65){
+	if(e.keyCode == 97){
 		var mediaVideo = $("video").get(0);
 		mediaVideo.pause()
 		mediaVideo.currentTime = mediaVideo.currentTime - 10
 		mediaVideo.play()
 		}
 	
-	if(e.keyCode == 68){
+	if(e.keyCode == 100){
 		var mediaVideo = $("video").get(0);
 		mediaVideo.pause()
 		mediaVideo.currentTime = mediaVideo.currentTime + 10
