@@ -22,7 +22,7 @@ $("video").on("timeupdate", function() {
 
 
 $(document).keypress(function (e) {
-	if(e.keyCode == 97){
+    if(e.keyCode == 97){
 		var mediaVideo = $("video").get(0);
 		mediaVideo.pause()
 		mediaVideo.currentTime = mediaVideo.currentTime - 10
@@ -35,11 +35,7 @@ $(document).keypress(function (e) {
 		mediaVideo.currentTime = mediaVideo.currentTime + 10
 		mediaVideo.play()
 	}
-})
 
-
-$(document).keypress(function (e) {
-    console.log(e.keyCode)
     if(e.keyCode == 32){
 		e.preventDefault();
 		var mediaVideo = $("video").get(0);
