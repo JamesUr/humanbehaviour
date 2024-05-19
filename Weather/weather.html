@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+<title>Main Page</title>
+<link href="../main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="overlay"><p>Press F11 to enter fullscreen</p></div>
+	<div id="textback"></div>
+	
+<video width="100%" height="100%" autoplay muted loop>
+	<source src="background.mp4" type="video/mp4">
+</video>
+
+<div id="box">
+
+<h1>Weather</h1>
+<p>These are the types of weather we will talk about:</p>
+<ul>
+	<li id="Sunny"><a href="sunny.html">Sunny</a></li>
+	<li id="Rain"><a href="rain.html">Rain</a></li>
+	<li id="Snow"><a href="snow.html">Snow</a></li>
+	<li id="LT"><a href="lt.html">Lightning and Thunder</a></li>
+	<li id="Windy"><a href="windy.html">Windy</a></li>
+	<li id="Cloudy"><a href="cloudy.html">Cloudy</a></li>
+</ul>
+
+<a href="../index.html">Click here to go back to all the topics</a>
+</div>
+<ul id="controls">
+	<li><p id="cont">Space = Pause video</p></li>
+	<li><p id="cont">Enter = Enter Read Mode</p></li>
+	<li><p id="cont">A = Rewind 10s</p></li>
+	<li><p id="cont">D = Fast-forward 10s</p></li>
+</ul>
+<script src="../jquery-3.7.1.min.js"></script>
+<script src="../video.js"></script>
+</body>
+
+</html>
