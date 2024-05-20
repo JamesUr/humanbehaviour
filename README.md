@@ -1,2 +1,2 @@
 # Human Behaviour
-full website: [h](https://jamesur.github.io/humanbehaviour/)
+full website: [(https://jamesur.github.io/humanbehaviour/)](https://jamesur.github.io/humanbehaviour/)
