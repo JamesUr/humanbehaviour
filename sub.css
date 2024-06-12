@@ -14,7 +14,7 @@ body {
 	transform: translate(-5%,0);
 	width: 600px;
 	mix-blend-mode: exclusion;
-	color: rgba(255,255,255,0);
+	color: rgba(0,0,0,0);
 	animation-name: fadein;
 	animation-duration: 4s;
 	animation-delay: 1.5s;
@@ -29,7 +29,7 @@ body {
 	transform: translate(-95%,0);
 	width: 600px;
 	mix-blend-mode: exclusion;
-	color: rgba(255,255,255,0);
+	color: rgba(0,0,0,0);
 	animation-name: fadein;
 	animation-duration: 4s;
 	animation-delay: 1.5s;
@@ -106,7 +106,7 @@ a:hover {
 
 #cont {
 	text-decoration: none;
-	color: rgba(255,255,255,0);
+	color: rgba(0,0,0,0);
 	animation-name: fadein;
 	animation-duration: 4s;
 	animation-delay: 1.5s;
@@ -115,8 +115,8 @@ a:hover {
 }
 
 @keyframes fadein {
-	from {color: rgba(255,255,255,0);}
-	to {color: rgba(255,255,255,1);}
+	from {color: rgba(0,0,0,0);}
+	to {color: rgba(0,0,0,1);}
 }
 
 html::-webkit-scrollbar {

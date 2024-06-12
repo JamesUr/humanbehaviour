@@ -23,7 +23,3 @@ $(document).keypress(function (e) {
 	}
 
 });
-
-$(document).on("wheel", function(e) {
-	e.preventDefault()
-})
