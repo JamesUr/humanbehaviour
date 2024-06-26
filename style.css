@@ -25,7 +25,7 @@ body {
 
 #cont {
 	text-decoration: none;
-	color: rgba(255,255,255,0);
+	color: rgba(0,0,0,0);
 	animation-name: fadein;
 	animation-duration: 4s;
 	animation-delay: 1.5s;
@@ -84,36 +84,6 @@ a:hover {
 html::-webkit-scrollbar {
   display: none;
 }
-
-#overlay {
-	position: fixed;
-	visibility: hidden;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.98);
-	z-index: 100;
-	margin:-8px;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: monospace;
-	font-size: 40px;
-	color: white;
-}
-
-#textback{
-	position: fixed;
-	visibility: hidden;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.75);
-	z-index: -1;
-	margin:-8px;
-}
-
-
-
 
 @keyframes fadein {
 	from {color: rgba(255,255,255,0);}
