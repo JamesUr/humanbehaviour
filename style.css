@@ -1,5 +1,6 @@
 html {
 	user-select: none;
+	zoom: 200%
 }
 
 body {
@@ -37,8 +38,7 @@ body {
 	display:grid;
 	grid-template-rows:auto;
 	grid-template-columns:auto auto auto auto auto auto auto;
-	margin: auto;
-	width: 800px;
+	width: 750px;
 }
 
 video{
@@ -51,7 +51,7 @@ video{
 }
 
 h1 {
-	text-align: center;
+	
 	font-size:65px;
 	margin-bottom: 25px;
 }
@@ -108,87 +108,84 @@ html::-webkit-scrollbar {
 
 @media screen and (max-width: 1250px) {
 	html {
-	zoom: 95%;
+	zoom: 200%;
 	}
 }
 
 @media screen and (max-width: 1200px) {
 	html {
-	zoom: 90%;
+	zoom: 195%;
 	}
 }
 
 @media screen and (max-width: 1150px) {
 	html {
-	zoom: 85%;
+	zoom: 190%;
 	}
 }
 
 @media screen and (max-width: 1100px) {
 	html {
-	zoom: 80%;
+	zoom: 185%;
 	}
 }
 
 @media screen and (max-width: 1050px) {
 	html {
-	zoom: 75%;
+	zoom: 180%;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	html {
-	zoom: 70%;
+	zoom: 175%;
 	}
 }
 
 @media screen and (max-width: 950px) {
 	html {
-	zoom: 65%;
+	zoom: 170%;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	html {
-	zoom: 60%;
+	zoom: 165%;
 	}
 }
 
 @media screen and (max-width: 850px) {
 	html {
-	zoom: 55%;
+	zoom: 160%;
 	}
 }
 
 @media screen and (max-width: 800px) {
 	html {
-	zoom: 50%;
+	zoom: 155%;
 	}
 }
 
 @media screen and (max-width: 750px) {
 	html {
-	zoom: 50%;
+	zoom: 150%;
 	}
 }
 
 @media screen and (max-width: 700px) {
 	html {
-	zoom: 45%;
+	zoom: 145%;
 	}
 }
 
 @media screen and (max-width: 650px) {
 	html {
-	zoom: 40%;
+	zoom: 140%;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	html {
-	zoom: 35%;
+	zoom: 135%;
 	}
 }
-
-
-
