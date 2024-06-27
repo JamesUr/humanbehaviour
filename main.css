@@ -96,85 +96,85 @@ a:hover {
 
 @media screen and (max-width: 1250px) {
 	html {
-	zoom: 200%;
+	zoom: 95%;
 	}
 }
 
 @media screen and (max-width: 1200px) {
 	html {
-	zoom: 195%;
+	zoom: 90%;
 	}
 }
 
 @media screen and (max-width: 1150px) {
 	html {
-	zoom: 190%;
+	zoom: 85%;
 	}
 }
 
 @media screen and (max-width: 1100px) {
 	html {
-	zoom: 185%;
+	zoom: 80%;
 	}
 }
 
 @media screen and (max-width: 1050px) {
 	html {
-	zoom: 180%;
+	zoom: 75%;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 	html {
-	zoom: 175%;
+	zoom: 70%;
 	}
 }
 
 @media screen and (max-width: 950px) {
 	html {
-	zoom: 170%;
+	zoom: 65%;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	html {
-	zoom: 165%;
+	zoom: 60%;
 	}
 }
 
 @media screen and (max-width: 850px) {
 	html {
-	zoom: 160%;
+	zoom: 55%;
 	}
 }
 
 @media screen and (max-width: 800px) {
 	html {
-	zoom: 155%;
+	zoom: 50%;
 	}
 }
 
 @media screen and (max-width: 750px) {
 	html {
-	zoom: 150%;
+	zoom: 50%;
 	}
 }
 
 @media screen and (max-width: 700px) {
 	html {
-	zoom: 145%;
+	zoom: 45%;
 	}
 }
 
 @media screen and (max-width: 650px) {
 	html {
-	zoom: 140%;
+	zoom: 40%;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	html {
-	zoom: 135%;
+	zoom: 35%;
 	}
 }
 
