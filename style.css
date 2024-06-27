@@ -76,6 +76,13 @@ a {
 	font-family: monospace;
 }
 
+#background{
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
 a:hover {
 	font-weight: 1000;
 	cursor:pointer;
