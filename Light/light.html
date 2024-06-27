@@ -8,7 +8,10 @@
 </head>
 
 <body>
-
+	<script>
+		var x = Math.floor(Math.random() * 7)+1;
+		document.write("<img id='background' src='../Picture" + x + ".png'>")
+	</script>
 <div id="box">
 
 <h1>Light</h1>
@@ -28,12 +31,7 @@
 
 <a href="../index.html">Click here to go back to all the topics</a>
 </div>
-<ul id="controls">
-	<li><p id="cont">Enter = Enter dark Mode</p></li>
-</ul>
 
-<script src="../jquery-3.7.1.min.js"></script>
-<script src="../control.js"></script>
 </body>
 
 </html>
